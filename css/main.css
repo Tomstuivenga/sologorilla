@@ -60,10 +60,37 @@ li:hover {
     background-color: #2F4F4F;
 }
 table {
-  border-collapse: collapse;
-  border: 2px solid black;
+    border-collapse: collapse;
+    border: 2px solid black;
+    text-align: left;
 } 
 
+.a td:hover {
+    background-color:#DC143C;
+}
+.b td:hover {
+    background-color:#32CD32;
+}
+  
 th,td {
-  border: 1px solid black;
+    border: 1px solid black;
+    padding: 10px;
+}
+.a {
+    table-layout: auto;
+    width: 600px;
+
+}
+.a th {
+    background-color: #8B0000;
+    color: white;
+}
+.b {
+    table-layout: auto;
+ 
+    width: 600px;
+}
+.b th {
+    background-color: #228B22;
+    color: white;
 }
