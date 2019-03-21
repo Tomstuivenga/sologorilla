@@ -18,15 +18,12 @@ nav ul li{
         		    list-style-type: none;
                     float: left;
                     margin: 0;
-                    padding: 0;
+                    padding:12px 14px;
                     overflow: hidden;
                     background-color: #333;
-
-                
                     display: block;
                     color: white;
                     text-align: center;
-                    padding: 14px 16px;
                     text-decoration: none;
                     border-right: 2px solid #2F4F4F;
 
@@ -52,9 +49,21 @@ footer {
     font-size: .8em;
 }
 
+li:last-child {
+  border-right: none;
+}
+
 li:hover {
     background-color: #2F4F4F;
 }
 .active {
     background-color: #2F4F4F;
+}
+table {
+  border-collapse: collapse;
+  border: 2px solid black;
+} 
+
+th,td {
+  border: 1px solid black;
 }
